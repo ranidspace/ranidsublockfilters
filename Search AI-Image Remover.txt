@@ -1,0 +1,21 @@
+! Homepage: https://github.com/ranidspace/ranidsublockfilters
+! Title: Google Images AI Remover
+! Version: 1
+! Expires: 5 days
+! Description: I've noticed whenever I search for a character on google images or something I get a couple results from these AI websites so I just want to get rid of those and found out this was the best way of doing so. I'm making this available to everyone else too.
+
+! Google searches
+www.google.*##.g:has(a[href*="civitai.com"])
+www.google.*##a[href*="civitai.com"]:upward(1)
+
+www.google.*##.g:has(a[href*="tensor.art"])
+www.google.*##a[href*="tensor.art"]:upward(1)
+
+www.google.*##.g:has(a[href*="pixai.art"])
+www.google.*##a[href*="pixai.art"]:upward(1)
+
+www.google.*##.g:has(a[href*="prompthero.com"])
+www.google.*##a[href*="prompthero.com"]:upward(1)
+
+www.google.*##.g:has(a[href*="prompthunt.com"])
+www.google.*##a[href*="prompthunt.com"]:upward(1)

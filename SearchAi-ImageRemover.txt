@@ -19,3 +19,6 @@ www.google.*##a[href*="prompthero.com"]:upward(1)
 
 www.google.*##.g:has(a[href*="prompthunt.com"])
 www.google.*##a[href*="prompthunt.com"]:upward(1)
+
+www.google.*##.g:has(a[href*="lexica.art"])
+www.google.*##a[href*="lexica.art"]:upward(1)
